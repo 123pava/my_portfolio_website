@@ -1,0 +1,11 @@
+project_name         = "pavan-portfolio-201103"
+aws_region           = "ap-south-1"
+enable_custom_domain = false
+domain_name          = "portfolio.example.com"
+hosted_zone_name     = "example.com"
+
+tags = {
+  Project = "portfolio"
+  Owner   = "pavan"
+  Stack   = "static-site"
+}
